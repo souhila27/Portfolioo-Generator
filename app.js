@@ -1,4 +1,4 @@
-
+const profileDataArgs = process.argv.slice(2);
 
 
 
@@ -21,4 +21,4 @@ const printProfileData = profileDataArr => {
 
 
 };
-printProfileData();
+printProfileData(profileDataArgs);
