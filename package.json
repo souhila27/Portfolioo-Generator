@@ -1,0 +1,15 @@
+{
+  "name": "portfolioo-generator",
+  "version": "1.0.2",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.8",
+    "inquirer": "^10.1.8"
+  }
+}
