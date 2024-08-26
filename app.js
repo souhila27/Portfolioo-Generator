@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+import inquirer from 'inquirer';
 // const fs = require('fs');
 // const generatePage = require("./src/page-template.js");
 // const pageHTML = generatePage(name, gitHub);
