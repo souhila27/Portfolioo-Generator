@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@inquirer/prompts": "^5.3.8",
-    "inquirer": "^10.1.8"
+    "inquirer": "^10.2.2"
   }
 }
