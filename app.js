@@ -1,6 +1,8 @@
+
 import inquirer from 'inquirer';
-const fs = require('fs');
-const generatePage = require('./src/page-template.cjs');
+import fs from 'fs';
+import generatePage from './src/page-template.js';
+
 
 const promptUser = () => {
   return inquirer.prompt([
@@ -125,12 +127,12 @@ Add a New Project
 promptUser()
   .then(promptProject)
   .then(portfolioData => {
-    const pageHTML = generatePage();
+    const pageHTML = generatePage(portfolioData);
 
     fs.writeFile('./index.html', pageHTML, err => {
       if (err) throw new Error(err);
 
       console.log('Page created! Check out index.html in this directory to see it!');
     });
-    
+
   });
